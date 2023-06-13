@@ -11,14 +11,27 @@
     font-family: 'FonteTexto';
     src: url("../_fontes/Eczar-VariableFont_wght.ttf")
 }
+body{
+    background-image: linear-gradient(to bottom, #000000 15%,#000033,#010139,#000024);
+    color: white;
+
+}
+header#cabecalho img{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 100px;
+}
 header#cabecalho h1 {
     font-family: 'FonteLogo';
+    font-size: 35px;
     position: absolute;
-    top: 45px;
-    left : 150px;
+    top: 130px;
+    left : 135px;
 }
 header#cabecalho{
-    height: 250px;
+    height: 300px;
+
 }
 nav#navegacao ul{
     position : absolute;
@@ -29,36 +42,75 @@ nav#navegacao ul{
 }
 
 nav#navegacao li {
+    position: relative;
+    font-size: 20px;
     padding : 5px;
     margin : 50px;
     display: inline-block;
     font-family: 'OpenSans';
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+
+}
+header#cabecalho a{
+    text-decoration: none;
+    color: black;
+}
+header#cabecalho a:hover{
+    text-decoration: underline;
+    color : black;
+    box-shadow: 3px 3px 4px black;
 }
 
 section#sessao {
     display: block;
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 650px;
     float: left;    
     padding-right: 20px;
 
 }
-section#sessao h1,h3 {
+section#sessao h3 {
     text-align: center;
     padding: 5px;
     font-family: 'FonteTexto';
+    margin-top: 0px;
+}
+section#sessao h1 {
+    text-align: center;
+    font-family: 'OpenSans';
+    font-size: 45px;
+    margin-bottom: 0px;
 }
 section#sessao h2 {
-    text-align: center;
-    padding: 25px;
+    position: absolute;
     font-family: 'OpenSans';
+    margin-top: 70px;
+    display: inline-block;
+    background-color: white;
+    left: 300px;
+    text-transform: uppercase;
+    padding: 5px;
+    color :rgb(25, 15, 71);
+    border-radius: 10px;
 }
 
+section#sessao a{
+    text-decoration: none;
+    color: rgb(25, 15, 71);
 
+}
+section#sessao a:hover{
+    text-decoration: underline;
+    color: black;
+    box-shadow: 2px 2px 3px black;
+}
 p {
     text-align: justify;
     text-indent: 50px;
     font-family: 'FonteTexto';
+    padding-left: 20px;
 }
 
 aside#lateral{
@@ -68,11 +120,31 @@ aside#lateral{
     padding-left: 20px;
     margin-top: 10px;
 }
-
+aside#lateral img {
+    position: absolute;
+    right: 10px;
+    top: 80px;
+}
 footer#rodape{
     clear: both;
 }
 footer#rodape h3{
-    text-align: center;
+    left: 100px;
     font-family: 'FonteTexto';
+    display:inline-block;
+    position: absolute;
+    background-color: black;
+}
+footer#rodape a {
+    color: blue;
+    text-decoration: underline;
+    margin: 5px;
+}
+footer#rodape a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: -20px;
+    padding: 5px;
+
 }
