@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <title>Login</title>
+    <meta charset = "UTF-8"/>
+    <link rel = "stylesheet" href = "_css/login.css"/>
+    <script language = "javascript" href = "_javascript/login.js"></script>
+    <link rel = "icon" type = "image/png" href = "_imagens/livro.png"/>
+</head>
+<body>
+    <div id = "divisao">
+        <header id = "cabecalho">
+            <img src = "_imagens/livro.png"/>
+            <h1>Login</h1>
+            <nav id = "navega">
+                <ul>
+                    <li><a href = "index.html">home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id = "sessao">
+            <h1>Sign Up with</h1>
+            <img id = "face" src = "_imagens/facebook.png"/>
+            <img id = "goo" src = "_imagens/google.png"/>
+            <img id = "lin" src = "_imagens/linkedin.png"/>
+        </section>
+        <aside id = "lateral">
+            <form method = "post" action = "">
+                <fieldset>
+                    <legend>Sign In</legend>
+                    <p>
+                        <label for = "user">Username</label>
+                        <input type = "text" name = "un" id = "user" size = "20" maxlength="40" placeholder = "Username"/>
+                    </p>
+
+                    <p>
+                        <label for = "emails">E-mail</label>
+                        <input type = "email" name = "em" id = "emails" size = "20" maxlength="50" placeholder="E-mail"/>                   
+                    </p>
+
+                    <p>
+                        <label for = "pass">Password</label>
+                        <input type = "password" name = "word" id = "pass" size = "20" maxlength="100" placeholder="Your Password"/>
+                    </p>
+                    <p>
+                        <input type = "checkbox" name = "check" id = "box" checked/>
+                        <label for = "box">Remember-me</label>
+
+                        <a href = "forgot.html">Forgot Password?</a>
+                    </p>
+                </fieldset>
+            </form>
+        </aside>
+        <footer id = "rodape">
+
+        </footer>
+    </div>
+</body>
+</html>

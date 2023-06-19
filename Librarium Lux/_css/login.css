@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'FonteLogo';
+    src: url("../_fontes/NotoSerif-VariableFont_wdth\,wght.ttf")
+}
+@font-face{
+    font-family: 'OpenSans';
+    src: url("../_fontes/OpenSans-VariableFont_wdth\,wght.ttf")
+}
+@font-face{
+    font-family: 'FonteTexto';
+    src: url("../_fontes/Eczar-VariableFont_wght.ttf")
+}
+body{
+    color: white;
+    background-image: linear-gradient(to bottom, #000000 15%,#000033,#010139,#000024);
+}
+header#cabecalho {
+    width: 1100px;
+    height: 125px;
+}
+nav#navega ul {
+    position: absolute;
+    left: 900px;
+    top: 0px;
+    list-style: none;
+}
+nav#navega li {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'OpenSans' sans-serif;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+nav#navega a{
+    text-decoration: none;
+    color: black;
+}
+nav#navega a:hover{
+    text-decoration: underline;
+    box-shadow: 3px 3px 4px black;
+}
+header#cabecalho h1{
+    font-size: 45pt;
+    left: 500px;
+    font-family: 'FonteTexto';
+    top: 0px;
+    position: absolute;
+
+}
+header#cabecalho img{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+section#sessao {
+    width: 400px;
+    height: 600px;
+    float: left;
+}
+section#sessao img{
+    position: relative;
+    left: 100px;
+    top: 250px;
+    margin-top: 0px;
+}
+section#sessao h1{
+    position: relative;
+    left: 150px;
+    font-size: 23pt;
+    top: 250px;
+    margin-bottom: 0px;
+    font-family: 'FonteLogo';
+}
+section#sessao img#face{
+    width: 70px;
+    height: 70px;
+}
+section#sessao img#goo{
+    width: 95px;
+    height: 95px;
+}
+section#sessao img#lin{
+    width: 75px;
+    height: 75px;
+}
+aside#lateral{
+    position: relative;
+    width: 700px;
+    height: 600px;
+    float: right;
+    margin: 100px;
+    top: 125px;
+}
+aside#lateral fieldset{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'OpenSans';
+}
+footer#rodape{
+    width: 1100px;
+    clear: both;
+}
