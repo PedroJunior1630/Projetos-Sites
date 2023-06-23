@@ -78,7 +78,9 @@ section#sessao h1{
     top: 250px;
     margin-bottom: 0px;
     font-family: 'FonteLogo';
+    text-decoration: underline;
 }
+
 section#sessao img#face{
     width: 70px;
     height: 70px;
@@ -100,11 +102,50 @@ aside#lateral{
     top: 125px;
 }
 aside#lateral fieldset{
-    margin: 10px;
-    padding: 10px;
+    position: relative;
+    left: 200px;
+    width: 400px;
+    height: 415px;
+    border-radius: 5px;
+    border: solid 6px rgb(6, 5, 39);
+    background-color: rgb(36, 5, 94);
+    margin: 5px;
+    padding: -5px;
     font-family: 'OpenSans';
+    text-align: center;
+    text-decoration: underline;
+}
+aside#lateral input {
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 2px 2px 4px black;
+}
+aside#lateral a{
+    margin: 10px;
 }
 footer#rodape{
     width: 1100px;
     clear: both;
+}
+footer#rodape h3{
+    left: 100px;
+    font-family: 'FonteTexto';
+    display:inline-block;
+    position: absolute;
+    background-color: black;
+}
+footer#rodape a {
+    color: blue;
+    text-decoration: underline;
+    margin: 5px;
+}
+footer#rodape a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: -20px;
+    padding: 5px;
+
 }
