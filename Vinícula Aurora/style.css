@@ -9,22 +9,73 @@
 }
 @font-face {
     font-family: 'Legenda';
-    src: url("./_fontes/Bookish.ttf");
+    src: url("./_fontes/javatext.ttf");
 }
 body {
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 header#cabecalho {
     width: 900px;
-    height: 300px;
+    height: 200px;
+}
+nav#navega ul {
+    position: absolute;
+    list-style: none;
+    text-transform: uppercase;
+    top: -50px;
+    left: 75px;
+}
+nav#navega li{
+    display: inline-block;
+    margin: 85px;
+    padding: 7px;
+    color: black;
+    font-family: 'OpenSans';
+}
+nav#navega a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+nav#navega a:hover {
+    color: white;
+    text-decoration: underline;
+}
+nav#navega li:hover {
+    background-color: #481819;
+    color: white;
+    border-radius: 5px;
 }
 section#sessao {
     width: 700px;
     height: 700px;
 }
+h1{
+    position: relative;
+    left: 70px;
+    font-family: 'Titulo';
+    font-size: 30pt;
+    margin-bottom: 0px;
+}
+h3{
+    margin-top: 0px;
+    position: relative;
+    left: 70px;
+    font-family: 'Legenda';
+}
+section#sessao img {
+    position: relative;
+    left: 35px;
+
+}
 aside#lateral {
     width: 200px;
     height: 700px;
+}
+aside#lateral img {
+    position: absolute;
+    left: 875px;
+    top: 240px;
 }
 footer#rodape{
     clear: both;
