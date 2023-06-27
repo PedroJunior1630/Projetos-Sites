@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'OpenSans';
+    src: url("./_fontes/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+    font-family: 'Titulo';
+    src: url("./_fontes/Bookish.ttf");
+}
+@font-face {
+    font-family: 'Legenda';
+    src: url("./_fontes/Bookish.ttf");
+}
+body {
+    background-color: #FFFFFF;
+}
+header#cabecalho {
+    width: 900px;
+    height: 300px;
+}
+section#sessao {
+    width: 700px;
+    height: 700px;
+}
+aside#lateral {
+    width: 200px;
+    height: 700px;
+}
+footer#rodape{
+    clear: both;
+}
