@@ -8,13 +8,14 @@
     <link rel = "icon" type = "_image/png" href = "_imagens/logo.png"/>
 </head>
 <body>
+    <div>
     <header id = "cabecalho">
         <nav id = "navega">
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "aboutus.html">About Us</a></li>
-                <li><a href = "login.html">Login</a></li>
-                <li><a href = "wines.html">Wines</a></li>
+                <li id = "n"><a href = "index.html">Home</a></li>
+                <li id = "n"><a href = "aboutus.html">About Us</a></li>
+                <li id = "n"><a href = "login.html">Login</a></li>
+                <li id = "wine"><a id = "wine" href = "wines.html">Wines</a></li>
             </ul>
         </nav>
     </header>
@@ -22,12 +23,27 @@
         <h1>Vinícula Aurora</h1>
         <h3>"Discover the elegance and the tradition in each glass."</h3>
         <img src= "_imagens/vinho-taça.png"/>
+        <form>
+            <fieldset>
+                <legend>Sign-Up</legend>
+                <p>
+                    <label for = "ema">E-mail</label>
+                    <input type = "email" name = "mail" id = "ema" size = "20" maxlenght = "50" placeholder = "Your Best E-mail"/>
+                </p>
+                <p>
+                    <label for = "word">Password</label>
+                    <input type = "password" name = "pass" id = "word" size = "18" maxlength="30" placeholder="Your Password"/>
+                </p>
+            </fieldset>
+        </form>
+        <p id = "premium"><a href = "premium.html">Purschase Our Premium "WINE"</a></p>
     </section>
     <aside id = "lateral"> 
         <img id = "logo" src = "_imagens/logo.png"/>
     </aside>
     <footer  id = "rodape">
-
+        <h3> Made By <a href = "https://www.instagram.com/ph_dev_/" target = "_blank">PH_DEV</a> and <a href = "https://www.instagram.com/line-artdesign/" target = "_blank">LineArtDesign</a> &copy; 2023 &trade; Made in Photoshop and HTML&CSS</h3>
     </footer>
+    </div>
 </body>
 </html>
