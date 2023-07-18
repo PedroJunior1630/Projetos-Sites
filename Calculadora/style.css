@@ -10,8 +10,8 @@ body input {
 }
 div#interface{
     width: 600px;
-    height: 500px;
-    background-color: rgb(223, 216, 216);
+    height: 550px;
+    background-image: linear-gradient(to bottom, #000000 30%, #b6afaf, #e0d7d7);
     margin: auto auto 0px auto;
     border-radius: 10px;
 
@@ -32,6 +32,24 @@ div#bloco-num {
     margin-top: 55px;
 
 }
+div#bloco h1#num-tela{
+    font-size: 25pt;
+    position: relative;
+    font-family: 'Fonte';
+    left: 300px;
+}
+div#bloco h1#operador-tela{
+    font-size: 25pt;
+    position: relative;
+    font-family: 'Fonte';
+    left: 350px;
+}
+div#bloco h1#num2-tela{
+    font-size: 25pt;
+    position: relative;
+    font-family: 'Fonte';
+    left: 400px;
+}
 div#bloco-cal {
     display: inline-block;
     position: absolute;
@@ -50,6 +68,7 @@ h1#num input.um{
     left: 75px;
     margin: 10px;
     border-radius: 5px;
+    box-shadow: 2px 2px 4px white;
 
 }
 h1#num input.dois{
@@ -60,6 +79,7 @@ h1#num input.dois{
     left: 75px;
     margin: 10px;
     border-radius: 5px;
+    box-shadow: 2px 2px 4px white;
 }
 h1#num input.tres{
     display: inline-block;
@@ -69,6 +89,7 @@ h1#num input.tres{
     left: 75px;
     margin: 10px;
     border-radius: 5px;
+    box-shadow: 2px 2px 4px white;
 }
 h1#num input.quatro{
     display: inline-block;
@@ -78,8 +99,9 @@ h1#num input.quatro{
     left: 180px;
     margin: 10px;
     border-radius: 5px;
+    box-shadow: 2px 2px 4px white;
 }
-h1#num input.rp{
+h1#num input.calculos{
    display: inline-block;
    position: relative;
    width: 75px;
@@ -87,6 +109,12 @@ h1#num input.rp{
    border-radius: 5px;
    margin: 10px;
    left: 75px;
+}
+h1#num input:hover{
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+
 }
 h1#bloco-calculo input.calculos{
     display: inline-block;
@@ -98,4 +126,8 @@ h1#bloco-calculo input.calculos{
 h1#bloco-calculo input {
     color: white;
     background-color: #0b6583;
+}
+h1#bloco-calculo input:hover{
+    color: white;
+    background-color: rgb(8, 116, 116);
 }

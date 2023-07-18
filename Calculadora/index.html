@@ -9,41 +9,43 @@
 <body>
     <div id = "interface">
         <div id = "bloco">
-            
+            <h1 id = "num-tela">0</h1>
+            <h1 id = "operador-tela"></h1>
+            <h1 id = num2-tela></h1>
         </div>
         <div id = "bloco-num">
         <h1 id = "num">
-            <input type = "submit" value = "√x" class = "rp">
-            <input type = "submit" value = "x²" class = "rp">
-            <input type = "submit" value = "DEL" class = "rp">
+            <input type = "button" value = "√x" class = "calculos" onclick ="mudaCal('√')">
+            <input type = "button" value = "x²" class = "calculos" onclick ="mudaCal('²')">
+            <input type = "button" value = "DEL" class = "calculos" id = "delete" onclick ="mudaDel('')">
             <br/>
-            <input type = "submit" value = "7" class = "um"> 
-            <input type = "submit" value = "8" class = "um">
-            <input type = "submit" value = "9" class = "um">
+            <input type = "button" value = "7" class = "um" onclick ="mudaNum('7')"> 
+            <input type = "button" value = "8" class = "um" onclick ="mudaNum('8')">
+            <input type = "button" value = "9" class = "um" onclick ="mudaNum('9')">
             <br/>
-            <input type = "submit" value = "4" class = "dois">
-            <input type = "submit" value = "5" class = "dois">
-            <input type ="submit" value = "6" class = "dois">
+            <input type = "button" value = "4" class = "dois"onclick ="mudaNum('4')">
+            <input type = "button" value = "5" class = "dois"onclick ="mudaNum('5')">
+            <input type = "button" value = "6" class = "dois"onclick ="mudaNum('6')">
             <br/>
-            <input type = "submit" value = "1" class = "tres">
-            <input type = "submit" value = "2" class = "tres">
-            <input type = "submit" value = "3" class = "tres">
+            <input type = "button" value="1" class = "tres" onclick ="mudaNum('1')">
+            <input type = "button" value = "2" class = "tres" onclick ="mudaNum('2')">
+            <input type = "button" value = "3" class = "tres" onclick ="mudaNum('3')">
             <br/>
-            <input type = "submit" value = "0" class = "quatro">
+            <input type = "button" value = "0" class = "quatro" onclick ="mudaNum('0')">
         </h1>
         <div id = "bloco-cal">
             <h1 id = "bloco-calculo">
-                <input type = "submit" value = "C" class = "calculos">
+                <input type = "button" value = "C" class = "calculos" id = "apagar" onclick ="mudaNum('')">
                 <br/>
-                <input type = "submit" value = "+" class = "calculos">
+                <input type = "button" value = "+" class = "calculos">
                 <br/>
-                <input type = "submit" value = "-" class = "calculos">
+                <input type = "button" value = "-" class = "calculos">
                 <br/>
-                <input type = "submit" value = "X" class = "calculos">
+                <input type = "button" value = "X" class = "calculos">
                 <br/>
-                <input type = "submit" value = "/" class = "calculos">
+                <input type = "button" value = "/" class = "calculos">
                 <br/>
-                <input type = "submit" value = "=" class = "calculos">
+                <input type = "button" value = "=" class = "calculos">
             </h1>
         </div>
         </div>
