@@ -32,7 +32,7 @@ div#bloco-num {
     margin-top: 55px;
 
 }
-div#bloco h1#num-tela{
+div#bloco h1#num1-tela{
     font-size: 25pt;
     position: relative;
     font-family: 'Fonte';
@@ -40,15 +40,24 @@ div#bloco h1#num-tela{
 }
 div#bloco h1#operador-tela{
     font-size: 25pt;
-    position: relative;
+    position: absolute;
     font-family: 'Fonte';
-    left: 350px;
+    top: 28px;
+    left: 790px;
 }
 div#bloco h1#num2-tela{
     font-size: 25pt;
-    position: relative;
+    position: absolute;
     font-family: 'Fonte';
-    left: 400px;
+    left: 820px;
+    top: 28px;
+}
+div#bloco h1#resultado{
+    font-size: 25pt;
+    position: absolute;
+    font-family: 'Fonte';
+    left: 840px;
+    top: 28px;
 }
 div#bloco-cal {
     display: inline-block;

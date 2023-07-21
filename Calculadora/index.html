@@ -8,15 +8,20 @@
 </head>
 <body>
     <div id = "interface">
+        <section>
+
+        </section>
+
         <div id = "bloco">
-            <h1 id = "num-tela">0</h1>
+            <h1 id = "num1-tela"></h1>
             <h1 id = "operador-tela"></h1>
             <h1 id = num2-tela></h1>
+            <h1 id = "resultado"></h1>
         </div>
         <div id = "bloco-num">
         <h1 id = "num">
-            <input type = "button" value = "√x" class = "calculos" onclick ="mudaCal('√')">
-            <input type = "button" value = "x²" class = "calculos" onclick ="mudaCal('²')">
+            <input type = "button" value = "√x" class = "calculos" onclick ="retornaOperador('√')">
+            <input type = "button" value = "x²" class = "calculos" onclick ="retornaOperador('²')">
             <input type = "button" value = "DEL" class = "calculos" id = "delete" onclick ="mudaDel('')">
             <br/>
             <input type = "button" value = "7" class = "um" onclick ="mudaNum('7')"> 
@@ -32,20 +37,24 @@
             <input type = "button" value = "3" class = "tres" onclick ="mudaNum('3')">
             <br/>
             <input type = "button" value = "0" class = "quatro" onclick ="mudaNum('0')">
+            
+            <aside>
+
+            </aside>
         </h1>
         <div id = "bloco-cal">
             <h1 id = "bloco-calculo">
-                <input type = "button" value = "C" class = "calculos" id = "apagar" onclick ="mudaNum('')">
+                <input type = "button" value = "C" class = "calculos" id = "apagar" onclick ="mudaTudo('')">
                 <br/>
-                <input type = "button" value = "+" class = "calculos">
+                <input type = "button" value = "+" class = "calculos" id = "adição" onclick ="retornaOperador('+')">
                 <br/>
-                <input type = "button" value = "-" class = "calculos">
+                <input type = "button" value = "-" class = "calculos" id = "menos" onclick ="retornaOperador('-')">
                 <br/>
-                <input type = "button" value = "X" class = "calculos">
+                <input type = "button" value = "X" class = "calculos" id = "multiplicar" onclick ="retornaOperador('x')">
                 <br/>
-                <input type = "button" value = "/" class = "calculos">
+                <input type = "button" value = "/" class = "calculos" id = "dividir" onclick ="retornaOperador('/')">
                 <br/>
-                <input type = "button" value = "=" class = "calculos">
+                <input type = "button" value = "=" class = "calculos" id = "igual" onclick = "retornaCalculo()">
             </h1>
         </div>
         </div>
