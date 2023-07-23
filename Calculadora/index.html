@@ -8,10 +8,13 @@
 </head>
 <body>
     <div id = "interface">
-        <section>
-
-        </section>
-
+        <h1 class = "ins">Instruções: </h1>
+        <p class = "ins">A calculadora suporta apenas dois dígitos <br/> e tem todas as operações básicas.</p>
+        <h1 class = "fun">Funções: </h1>
+        <p class = "fun" id = "cd">C & DEL: <br/>A função "C" é para apagar em geral e DEL para apagar apenas um caractere.</p>
+        <p class = "fun" id = "ba">+ - x /: <br/>Operações básicas que já conhecemos.</p>
+        <p class = "fun" id = "divi">√x: <br/>A função da divisão, você digita um número e em seguida clica no botão.</p>
+        <p class = "fun" id = "pot">x²: <br/>A função da potência, você digita um número e em seguida clica no botão. </p>
         <div id = "bloco">
             <h1 id = "num1-tela"></h1>
             <h1 id = "operador-tela"></h1>
@@ -19,29 +22,26 @@
             <h1 id = "resultado"></h1>
         </div>
         <div id = "bloco-num">
-        <h1 id = "num">
-            <input type = "button" value = "√x" class = "calculos" onclick ="retornaOperador('√')">
-            <input type = "button" value = "x²" class = "calculos" onclick ="retornaOperador('²')">
-            <input type = "button" value = "DEL" class = "calculos" id = "delete" onclick ="mudaDel('')">
-            <br/>
-            <input type = "button" value = "7" class = "um" onclick ="mudaNum('7')"> 
-            <input type = "button" value = "8" class = "um" onclick ="mudaNum('8')">
-            <input type = "button" value = "9" class = "um" onclick ="mudaNum('9')">
-            <br/>
-            <input type = "button" value = "4" class = "dois"onclick ="mudaNum('4')">
-            <input type = "button" value = "5" class = "dois"onclick ="mudaNum('5')">
-            <input type = "button" value = "6" class = "dois"onclick ="mudaNum('6')">
-            <br/>
-            <input type = "button" value="1" class = "tres" onclick ="mudaNum('1')">
-            <input type = "button" value = "2" class = "tres" onclick ="mudaNum('2')">
-            <input type = "button" value = "3" class = "tres" onclick ="mudaNum('3')">
-            <br/>
-            <input type = "button" value = "0" class = "quatro" onclick ="mudaNum('0')">
-            
-            <aside>
-
-            </aside>
-        </h1>
+            <h1 id = "num">
+                <input type = "button" value = "√x" class = "calculos" onclick ="retornaOperador('√')">
+                <input type = "button" value = "x²" class = "calculos" onclick ="retornaOperador('²')">
+                <input type = "button" value = "DEL" class = "calculos" id = "delete" onclick ="mudaDel('')">
+                <br/>
+                <input type = "button" value = "7" class = "um" onclick ="mudaNum('7')"> 
+                <input type = "button" value = "8" class = "um" onclick ="mudaNum('8')">
+                <input type = "button" value = "9" class = "um" onclick ="mudaNum('9')">
+                <br/>
+                <input type = "button" value = "4" class = "dois"onclick ="mudaNum('4')">
+                <input type = "button" value = "5" class = "dois"onclick ="mudaNum('5')">
+                <input type = "button" value = "6" class = "dois"onclick ="mudaNum('6')">
+                <br/>
+                <input type = "button" value="1" class = "tres" onclick ="mudaNum('1')">
+                <input type = "button" value = "2" class = "tres" onclick ="mudaNum('2')">
+                <input type = "button" value = "3" class = "tres" onclick ="mudaNum('3')">
+                <br/>
+                <input type = "button" value = "0" class = "quatro" onclick ="mudaNum('0')">
+            </h1>
+        
         <div id = "bloco-cal">
             <h1 id = "bloco-calculo">
                 <input type = "button" value = "C" class = "calculos" id = "apagar" onclick ="mudaTudo('')">
@@ -58,6 +58,9 @@
             </h1>
         </div>
         </div>
+        <footer id = "rodape">
+            <h1>2023 &copy; <a href = "https://www.instagram.com/ph_dev_/">PH DEV</a> PRODUCTIONS&trade;</h1>
+        </footer>
     </div>
 </body>
 </html>

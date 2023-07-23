@@ -92,7 +92,8 @@ function retornaCalculo()
     if (op === "²")
     {
         var quadrado = parseInt(n1) ** 2;
-        document.getElementById("num1-tela").textContent = quadrado;
+        document.getElementById("resultado").textContent = quadrado;
+        document.getElementById("num1-tela").textContent = "";
         document.getElementById("num2-tela").textContent = "";
         document.getElementById("operador-tela").textContent = "";
     }

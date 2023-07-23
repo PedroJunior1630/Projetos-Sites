@@ -11,12 +11,50 @@ body input {
 div#interface{
     width: 600px;
     height: 550px;
-    background-image: linear-gradient(to bottom, #000000 30%, #b6afaf, #e0d7d7);
+    background-image: linear-gradient(to bottom, #1a1818 10%, #606060, #e0d7d7);
     margin: auto auto 0px auto;
     border-radius: 10px;
 
 }
+h1.ins{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    font-family:'Courier New', Courier, monospace;
 
+}
+p.ins{
+    position: absolute;
+    left: 60px;
+    top: 90px;
+}
+
+h1.fun{
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    left: 1050px;
+    top: 40px;
+}
+p#cd{
+    position: absolute;
+    left: 1050px;
+    top: 90px;
+}
+p#ba{
+    position: absolute;
+    left: 1050px;
+    top: 160px;
+}
+p#divi{
+    position: absolute;
+    left: 1050px;
+    top: 220px;
+}
+p#pot{
+    position: absolute;
+    left: 1050px;
+    top: 300px;
+}
 div#bloco {
     display: inline-block;
     width: 450px;
@@ -140,3 +178,33 @@ h1#bloco-calculo input:hover{
     color: white;
     background-color: rgb(8, 116, 116);
 }
+
+div#interface footer#rodape{
+    clear: both;
+    display: block;
+    margin-top: 35px;
+}
+
+footer#rodape h1{
+    color: white;
+    background-color:rgb(8, 116, 116);
+    border-radius: 5px;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 15pt;
+    text-align: center;
+}
+
+footer#rodape a{
+    color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px;
+}
+
+footer#rodape a:hover{
+    color: black;
+    background-color: white;
+
+}
+
