@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Titulo;
+    src: url("./fonts/TiltPrism-Regular.ttf");
+}
+@font-face {
+    font-family: Texto;
+    src: url("./fonts/Inter-Regular.ttf");
+}
+body{
+    background-color: white;
+}
+header#cabecalho{
+    height: 150px;
+}
+header#cabecalho h1{
+    font-family: 'Titulo';
+    font-size: 30pt;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+}
+header#cabecalho img{
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 880px;
+    top: 45px;
+}
+nav#navega ul{
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+}
+nav#navega a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+nav#navega li:hover{
+    background-color: #7b2c28;
+    text-decoration: underline;
+    color: white;
+}
+nav#navega li{
+    font-family: 'Texto';
+    display: inline-block;
+    margin: 20px;
+    font-size: 14pt;
+    background-color: #460F0D;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 4px 4px 3px black;
+}
