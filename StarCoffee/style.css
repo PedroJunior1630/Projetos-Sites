@@ -7,8 +7,14 @@
     font-family: Texto;
     src: url("./fonts/Inter-Regular.ttf");
 }
-body{
-    background-color: white;
+@font-face {
+    font-family: Titulos;
+    src: url("./fonts/Pangolin-Regular.ttf");
+}
+body p{
+    text-align: justify;
+    text-indent: 40px;
+    font-family: sans-serif;
 }
 header#cabecalho{
     height: 150px;
@@ -24,14 +30,14 @@ header#cabecalho img{
     position: absolute;
     width: 55px;
     height: 45px;
-    left: 880px;
+    left: 750px;
     top: 45px;
 }
 nav#navega ul{
     text-transform: uppercase;
     position: absolute;
     top: 10px;
-    left: 900px;
+    left: 770px;
 }
 nav#navega a{
     list-style: none;
@@ -52,4 +58,40 @@ nav#navega li{
     border-radius: 5px;
     padding: 10px;
     box-shadow: 4px 4px 3px black;
+}
+section#sessao{
+    height: 500px;
+}
+section#sessao article h1{
+    color: white;
+    font-family: 'Titulos';
+    background-color: #7b2c28;
+    padding: 5px;
+    border-radius: 3px;
+    text-shadow: 2px 2px 2px black;
+}
+footer#rodape{
+    clear: both;
+}
+footer#rodape h1{
+    font-size: 12pt;
+    font-family: 'Texto';
+    text-align: center;
+    background-color:#460F0D;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer#rodape a{
+    text-decoration: none;
+    color: white;
+}
+footer#rodape a:hover{
+    margin-left: 2px;
+    margin-right: 2px;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+    padding: 3px;
+    border-radius: 5px;
 }
