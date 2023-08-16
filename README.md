@@ -1,7 +1,7 @@
 # Projetos-Sites
 ---
  Aqui você encontrará sites que fiz para projetos.
-- Sites:
+ - Sites:
  ***
 1. *Librarium Lux*
    - Site de ebooks e livros de luxo.
