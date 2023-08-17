@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "UTF-8"/>
+    <link rel = "stylesheet" href = "css/style.css"/>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel = "icon" type = "_image/png" href = "imagens/logo.png"/>
+    <script language = "javascript" src = "js/script.js"></script>
+    <script language = "javascript" src = "js/shop.js"></script>
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div>
+        <header id = "cabecalho">
+            <h1>StarCoffee</h1>
+            <img id = "imagem" src = "imagens/user.png"/>
+            <nav id = "navega">
+                <ul onmouseout ="mudaImg('user.png')">
+                    <li><a href = "index.html" onmouseover="mudaImg('home.png')">Home</a></li>
+                    <li><a href = "coffee.html" onmouseover="mudaImg('coffee.png')">Coffee's</a></li>
+                    <li><a href = "shop.html" onmouseover = "mudaImg('shop.png')">Shop</a></li>
+                    <li><a href = "login.html" onmouseover = "mudaImg('user.png')">Sign-Up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <img id = "usuario-img" src = "imagens/user.png"/>
+          <form id = "formulario">
+            <fieldset>
+
+                <legend>Sign-Up</legend>
+
+                <label for="user">
+                    <p>User 
+                        <input type = "text" name = "usuario" id = "user" size = "30" maxlength="20" placeholder = "Your Nickname"/>
+                    </p>
+                </label>
+
+                <label for = "ail">
+                    <p>E-mail 
+                        <input type = "email" name = "em" id = "ail" size = "30" maxlength="20" placeholder = "E-mail"/>
+                    </p>
+                </label>
+
+                <label for = "pass">
+                    <p>Password 
+                        <input type = "password" name = "senha" id = "pass" size = "30" maxlength="20" placeholder = "Your Password"/>
+                    </p>
+                </label>
+            </fieldset>
+          </form>
+          <input type = "button" value = "Enviar" id = "botao"/>
+        </section>
+        <footer id = "rodape">
+            <h1>Made by <a href = "https:/instagram.com/ph_dev_">PH_DEV</a> &copy; 2023</h1>
+        </footer>
+    </div>
+</body>
+</html>

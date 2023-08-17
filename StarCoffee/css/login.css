@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Texto;
+    src: url("../fonts/Inter-Regular.ttf");
+}
+@font-face {
+    font-family: Titulo;
+    src: url("../fonts/TiltPrism-Regular.ttf");
+}
+section{
+    height: 550px;
+}
+header#cabecalho h1{
+    font-family: 'Titulo';
+}
+section img#usuario-img{
+    position: absolute;
+    left: 610px;
+}
+section form#formulario{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    left: 450px;
+    top: 300px;
+    font-family: 'Texto';
+}
+form#formulario legend{
+    text-align: center;
+}
+form#formulario fieldset{
+    border-radius: 10px;
+    border: black 4px solid;
+}
+form#formulario input{
+    padding: 7px;
+    margin: 3px;
+    border-radius: 5px;
+}
+input#botao{
+    font-family: Texto;
+    padding: 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px black;
+    position: absolute;
+    left: 640px;
+    top: 520px;
+}
