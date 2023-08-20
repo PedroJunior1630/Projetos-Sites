@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
     font-family: Titulo;
-    src: url("./fonts/TiltPrism-Regular.ttf");
+    src: url("../fonts/TiltPrism-Regular.ttf");
 }
 @font-face {
     font-family: Texto;
-    src: url("./fonts/Inter-Regular.ttf");
+    src: url("../fonts/Inter-Regular.ttf");
 }
 @font-face {
     font-family: Titulos;
-    src: url("./fonts/Pangolin-Regular.ttf");
+    src: url("../fonts/Pangolin-Regular.ttf");
 }
 body p{
     text-align: justify;
@@ -82,6 +82,7 @@ footer#rodape h1{
     color: white;
     padding: 5px;
     border-radius: 10px;
+    text-shadow: 2px 2px 2px black;
 }
 footer#rodape a{
     text-decoration: none;
@@ -95,4 +96,5 @@ footer#rodape a:hover{
     box-shadow: 2px 2px 2px black;
     padding: 3px;
     border-radius: 5px;
+    text-shadow: 0px 0px 0px black;
 }

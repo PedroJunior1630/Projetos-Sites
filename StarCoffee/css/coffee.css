@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Textoh1;
+    src: url('../fonts/Pangolin-Regular.ttf');
+}
+h1#coffeeh1{
+    font-family:'Textoh1';
+    font-size: 25pt;
+    color: white;
+    background-color: #601d1b;
+    border-radius: 3px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+ul#album-foto{
+    width: 800px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-foto li{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 40px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(48, 30, 30);
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    -webkit-transition: all 0.4s ease-in;
+}
+ul#album-foto li#foto01{
+    background: url("../imagens/capuccino.jpg");
+    background-position: 50% 50%;
+    background-size: 225px 225px;
+    background-color: #FFFFFF;
+}
+ul#album-foto li#foto02{
+    background: url("../imagens/capuccino\ italian.jpg");
+    background-position: 50% 50%;
+    background-size: 225px 225px;
+    background-color: #FFFFFF;
+}
+ul#album-foto li#foto03{
+    background: url("../imagens/café\ cremoso\ ao\ leite.jpg");
+    background-position: 50% 50%;
+    background-size: 225px 225px;
+    background-color: #FFFFFF;
+}
+ul#album-foto li#foto04{
+    background: url("../imagens/café\ gelado.jpg");
+    background-position: 50% 50%;
+    background-size: 225px 225px;
+    background-color: #FFFFFF;
+}
+ul#album-foto li#foto05{
+    background: url("../imagens/café\ com\ leite.jpg");
+    background-position: 50% 50%;
+    background-size: 225px 225px;
+    background-color: #FFFFFF;
+}
+ul#album-foto li#foto06{
+    background: url("../imagens/café\ puro.jpg");
+    background-position: 50% 50%;
+    background-size: 225px 225px;
+    background-color: #FFFFFF;
+}
+
+ul#album-foto li span{
+    opacity: 0;
+    font-family: 'OpenSans';
+    font-size: 12pt;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+ul#album-foto li:hover span{
+    opacity: 1;
+}
+
+ul#album-foto li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 155px 155px;
+}
+ul#album-foto li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 155px 155px;
+}
+ul#album-foto li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 155px 155px;
+}
+ul#album-foto li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 155px 155px;
+}
+ul#album-foto li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 155px 155px;
+}
+ul#album-foto li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 160px 160px;
+}
+
+ul#album-foto li:hover{
+    -webkit-transform: scale(1.5);
+}
