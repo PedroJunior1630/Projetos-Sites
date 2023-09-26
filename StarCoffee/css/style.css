@@ -26,7 +26,7 @@ header#cabecalho h1{
     left: 40px;
     top: 0px;
 }
-header#cabecalho img{
+header#cabecalho img#imagem{
     position: absolute;
     width: 55px;
     height: 45px;
@@ -57,21 +57,29 @@ nav#navega li{
     background-color: #460F0D;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 4px 4px 3px black;
+    box-shadow: 4px 4px 1px black;
 }
-section#sessao{
-    height: 500px;
-}
+
 section#sessao article h1{
     color: white;
     font-family: 'Titulos';
     background-color: #7b2c28;
     padding: 5px;
     border-radius: 3px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+    font-size: 18pt;
 }
-
+section#sessao img{
+    margin-left: 850px;
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    background-color: #330b09;
+    border-radius: 5px;
+}
 footer#rodape{
+    margin-top: 100px;
     clear: both;
 }
 footer#rodape h1{

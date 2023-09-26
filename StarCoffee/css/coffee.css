@@ -71,9 +71,12 @@ ul#album-foto li#foto06{
 ul#album-foto li span{
     opacity: 0;
     font-family: 'OpenSans';
-    font-size: 12pt;
+    font-size: 10pt;
     color: white;
-    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    border-radius: 3px;
+    text-shadow: 2px 2px 1px black;
+    padding: 2px;
 }
 ul#album-foto li:hover span{
     opacity: 1;
