@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Pixel";
+    src: url("./_fontes/PixelifySans-VariableFont_wght.ttf");
+}
+header#cabecalho h1{
+    font-size: 30pt;
+    font-family: "Pixel";
+}
+nav#navega ul{
+    display: block;
+    text-transform: uppercase;
+    list-style: none;
+    position: absolute;
+    left: 370px;
+    top: 20px;
+}
+nav#navega li {
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(5, 90, 5);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-family: "Pixel";
+}
+nav#navega li a{
+    text-decoration: none;
+    color: white;
+}
